@@ -17,12 +17,12 @@ int main()
 
 	if (y % 4 == 0)
 	{
-		printf("Год високосный");
+		printf("Leap year");
 
 	}
 	else
 	{
-		printf("Год не високосный");
+		printf("No leap year");
 	}
 
 	cout << " " << endl;
@@ -32,73 +32,73 @@ int main()
 	if ((m == 12 && d > 22) || (m == 1 && d < 21))
 
 	{
-		printf("Козерог");
+		printf("Capricorn");
 	}
 	else
 		if ((m == 1 && d > 20) || (m == 2 && d < 20))
 
 	{
-		printf("Водолей");
+		printf("Aquarius");
 	}
 		else
 	if ((m == 2 && d > 19) || (m == 3 && d < 21))
 
 	{
-		printf("Рыбы");
+		printf("Pisces");
 	}
 	else
 	if ((m == 3 && d > 20) || (m == 4 && d < 21))
 
 	{
-		printf("Овен");
+		printf("Aries");
 	}
 	else
 	if ((m == 4 && d > 20) || (m == 5 && d < 22))
 
 	{
-		printf("Телец");
+		printf("Taurus");
 	}
 	else
 	if ((m == 5 && d > 21) || (m == 6 && d < 22))
 
 	{
-		printf("Близнецы");
+		printf("Gemini");
 	}
 	else
 	if ((m == 6 && d > 21) || (m == 7 && d < 23))
 
 	{
-		printf("Рак");
+		printf("Cancer");
 	}
 	else
 	if ((m == 7 && d > 22) || (m == 8 && d < 24))
 
 	{
-		printf("Лев");
+		printf("Leo");
 	}
 	else
 	if ((m == 8 && d > 23) || (m == 9 && d < 24))
 
 	{
-		printf("Дева");
+		printf("Virgo");
 	}
 	else
 	if ((m == 9 && d > 23) || (m == 10 && d < 24))
 
 	{
-		printf("Весы");
+		printf("Libra");
 	}
 	else
 	if ((m == 10 && d > 23) || (m == 11 && d < 23))
 
 	{
-		printf("Скорпион");
+		printf("Scorpio");
 	}
 	else
 	if ((m == 11 && d > 22) || (m == 12 && d < 23))
 
 	{
-		printf("Стрелец");
+		printf("Sagittarius");
 	}
 	cout << " " << endl;
 	vost = y % 12;
@@ -106,62 +106,62 @@ int main()
 	{
 	case 1:
 	{
-		printf("Год петуха");
+		printf("Year of the Rooster");
 	}
 	break;
 	case 2:
 	{
-		printf("Год собаки");
+		printf("Year of the Dog");
 	}
 	break;
 	case 3:
 	{
-		printf("Год свиньи");
+		printf("Year of the Pig");
 	}
 	break;
 	case 4:
 	{
-		printf("Год крысы");
+		printf("Year of the Rat");
 	}
 	break;
 	case 5:
 	{
-		printf("Год быка");
+		printf("Year of the Bull");
 	}
 	break;
 	case 6:
 	{
-		printf("Год тигра");
+		printf("Year of the Tiger");
 	}
 	break;
 	case 7:
 	{
-		printf("Год кролика");
+		printf("Year of the Rabbit");
 	}
 	break;
 	case 8:
 	{
-		printf("Год дракона");
+		printf("Year of the Dragon");
 	}
 	break;
 	case 9:
 	{
-		printf("Год змеи");
+		printf("Year of the Snake");
 	}
 	break;
 	case 10:
 	{
-		printf("Год лошади");
+		printf("Year of the Horse");
 	}
 	break;
 	case 11:
 	{
-		printf("Год козы");
+		printf("Year of the Goat");
 	}
 	break;
 	case 0:
 	{
-		printf("Год обезьяны");
+		printf("Year of the Monkey");
 	}
 	}
 	cout << " " << endl;
