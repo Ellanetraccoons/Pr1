@@ -1,0 +1,25 @@
+
+#include "stdafx.h"
+#include <stdio.h>
+#include <iostream>
+
+int main()
+{
+	int i = 0;
+	while (i < 9)
+	{
+		printf("Hello!\n");
+		i = i + 1;
+	}
+	{
+		int a = 0;
+		while (a < 15)
+		{
+			if (a % 2 != 0)
+			{
+				printf("%a\n", a);
+			}
+			a = a + 1;
+		}
+	system("pause");
+}
