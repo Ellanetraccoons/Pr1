@@ -10,7 +10,7 @@ int main()
 
 	for (int i = 0; i < 7; i++)
 	{
-		scanf_s("%i", &mas[i]);
+		scanf("%i", &mas[i]);
 	}
 	for (int i = 0; i < 7; i++)
 	{
