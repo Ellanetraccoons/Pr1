@@ -8,11 +8,11 @@ int main()
 	int n;
 	int mas[100];
 	printf("kol el");
-	scanf_s("%i",&n);
+	scanf("%i",&n);
 
 	for (int i = 0; i < n; i++)
 	{
-		scanf_s("%i", &mas[i]);
+		scanf("%i", &mas[i]);
 	}
 	for (int i = 0; i < n; i++)
 	{
