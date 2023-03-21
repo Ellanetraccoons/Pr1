@@ -9,7 +9,7 @@ int main()
 	int a = 9;
 	while (a != 7)
 	{
-		scanf_s("%i", &a);
+		scanf("%i", &a);
 		if (a == 7) {
 printf("SUPER");
 system("pause");
