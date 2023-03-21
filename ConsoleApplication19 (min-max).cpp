@@ -10,11 +10,11 @@ int main()
 	int n;
 
 	printf("el mas");
-	scanf_s("%i", &n);
+	scanf("%i", &n);
 
 	for (int i = 0; i < n; i++)
 	{
-		scanf_s("%i", &mas[i]);
+		scanf("%i", &mas[i]);
 	}
 	int min, max;
 	min = max = mas[0];
